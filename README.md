@@ -1,17 +1,9 @@
-# plink2-docker
-A dockerfile for plink2 alpha releases
+A docker image for using PLINK2 v Development 20 Sep 2025 (https://www.cog-genomics.org/plink/2.0/)
 
-### To build
+---
 
-```
- docker build . --tag us.gcr.io/broad-dsde-methods/plink2-alpha
-```
+To use to image from Docker Hub
 
-
-### To Push
-```
-  # one time only
-  gcloud auth configure-docker
-
-  docker push us.gcr.io/broad-dsde-methods/plink2-alpha
+```bash
+dimeetz/plink2-docker:latest
 ```
