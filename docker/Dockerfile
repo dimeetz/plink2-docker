@@ -9,3 +9,4 @@ RUN unzip plink2.zip
 FROM ubuntu
 COPY --from=unzip plink2 /usr/bin/plink2
 
+CMD ["/usr/bin/plink2", "--help"]
