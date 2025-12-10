@@ -9,6 +9,6 @@ Modified from https://github.com/broadinstitute/plink2-docker
 To use to image from Docker Hub (multiarch amd64/arm64)
 
 ```bash
-docker pull dimeetz/plink2-docker:latest
+docker pull dimeetz/plink2-docker:dec2025
 ```
 
